@@ -1,0 +1,4 @@
+FROM python:3.13.0a4-alpine
+WORKDIR /app
+COPY . /app
+CMD ["python3", "./BMI_check.py"]
